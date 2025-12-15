@@ -12,4 +12,4 @@ pip install flask
 
 
 dockerizaton ->
-minicube cluster installaion - to run kurbenetes
+minicube cluster installaion - to run kurbenetes locally
