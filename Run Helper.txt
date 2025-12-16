@@ -13,3 +13,8 @@ pip install flask
 
 dockerizaton ->
 minicube cluster installaion - to run kurbenetes locally
+minikube start --driver=docker
+docker
+to check running containers -->  docker ps
+
+creating a Dockerfile
