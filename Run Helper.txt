@@ -18,3 +18,37 @@ docker
 to check running containers -->  docker ps
 
 creating a Dockerfile
+
+Docker building -->
+docker build -t webapp:1.0 .
+docker run -d -p 5000:5000 --name web webapp:1.0
+docker ps
+
+Docker Compose -->
+create docker-compose.yml file
+docker compose build
+docker-compose up -d
+docker ps
+
+http://localhost:5000/
+
+remove docker-compose-->
+docker-compose down
+
+kubernetes
+Create kurbenetes folder
+cd kubernetes
+kubectl apply -f deployment.yml
+kubectl get po
+kubectl apply -f service.yml
+kubectl get po,svc
+
+kubectl get svc web-service
+minikube service web-service --url
+
+deleting -->
+kubectl delete -f .
+
+
+Creating HelmChart -->
+helm create webapp
