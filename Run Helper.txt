@@ -64,6 +64,7 @@ kubectl get po,svc
 Access the application -->
 minikube service web-webapp
 This automatically opens your browser to a local URL (like http://127.0.0.1:xxxxx) that tunnels to the service.
+or
+minikube service web-webapp --url
 
 
-http://192.168.49.2:30819
