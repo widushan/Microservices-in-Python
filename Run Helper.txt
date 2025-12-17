@@ -52,3 +52,18 @@ kubectl delete -f .
 
 Creating HelmChart -->
 helm create webapp
+render helm chart -->
+helm template webapp
+release helm chart -->
+helm install web webapp/
+helm list
+kubectl get po,svc
+
+
+
+Access the application -->
+minikube service web-webapp
+This automatically opens your browser to a local URL (like http://127.0.0.1:xxxxx) that tunnels to the service.
+
+
+http://192.168.49.2:30819
